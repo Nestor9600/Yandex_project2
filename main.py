@@ -333,11 +333,7 @@ def main():
     background.fill(bgcolor)
     draw_grid(background)
     background = background.convert()
-
-    try:
-        font = pygame.font.Font("Roboto-Regular.ttf", 20)
-    except OSError:
-        font = pygame.font.Font(pygame.font.get_default_font(), 20)
+    font = pygame.font.Font(pygame.font.get_default_font(), 20)
     next_block_text = font.render("NEXT:", True, (255, 255, 255), bgcolor)
     score_msg_text = font.render("SCORE:", True, (255, 255, 255), bgcolor)
     game_over_text = font.render("GAME OVER", True, (255, 220, 0), bgcolor)
