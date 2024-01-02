@@ -1,0 +1,13 @@
+altgraph==0.17.4
+numpy==1.26.2
+opencv-contrib-python==4.8.1.78
+opencv-python==4.8.1.78
+packaging==23.2
+pefile==2023.2.7
+pygame==2.5.2
+pyinstaller==6.1.0
+pyinstaller-hooks-contrib==2023.10
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+pywin32-ctypes==0.2.2
